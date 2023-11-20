@@ -53,7 +53,7 @@ table{
     width: 100%;
 }
 
-#height{
+#height, #weight, #age{
     margin: 5px;
     padding: 5px;
     margin-bottom: 15px;

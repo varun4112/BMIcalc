@@ -4,7 +4,11 @@ function calculateBMI() {
   console.log(h);
   let w = weight.value;
   console.log(weight.value);
-  let bmi = w / (h * h);
+  if(w==""||h==""){
+    alert("Enter All Feilds")
+  }
+  else{
+    let bmi = w / (h * h);
   let bmiRounded = bmi.toFixed(1);
   console.log(bmiRounded);
   if (bmi < 18.5) {
@@ -31,3 +35,5 @@ function calculateBMI() {
     console.log("ow");
   }
 }
+}
+  
