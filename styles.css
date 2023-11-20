@@ -23,7 +23,7 @@ padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #f0f2f5
+    background-color: white;
 }
 
 .col1{
@@ -35,21 +35,13 @@ padding: 20px;
 }
 
 form{
-    background-color: white;
+    background-color:rgb(252, 222, 52);
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 25px rgba(0,0, 0, 0.2);
 }
 
 table{
-    width: 100%;
-}
-
-#weight{
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid silver;
-    border-radius: 5px;
     width: 100%;
 }
 
