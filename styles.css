@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+
+.navbar{
+background-color: black;
+height: 75px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.navbarBrand{
+color: white;
+padding: 20px;
+}
+
+/* Flex box */
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f0f2f5
+}
+
+.col1{
+    height: 100vh;
+}
+
+.formcontainer{
+    padding-top: 20%;
+}
+
+form{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0,0, 0, 0.2);
+}
+
+table{
+    width: 100%;
+}
+
+#weight{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#height{
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    width: 100%;
+
+}
+#formButton{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+}
+@media screen and (max-width:400px) {
+    form{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0,0, 0, 0.2);
+}
+
+    .col1{
+        background-color: #f0f2f5;
+    }
+
+}
